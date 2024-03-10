@@ -7,14 +7,14 @@
 @import url(./abstracts/variable.css);
 
 /* components */
-/* @import url(./components/); */
+@import url(./components/button.css);
 
 /* layout */
 @import url(../style/layout/header.css);
 /* @import url(../style/layout/); */
 
 /* section */
-/* @import url(../style/section/); */
+@import url(../style/section/banner.css);
 
 .container {
     width: 1440px;

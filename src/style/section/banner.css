@@ -1,0 +1,42 @@
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+    padding: 56px 104px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.banner-title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xl);
+    color: var(--color-primary);
+}
+
+.banner-btn {
+    display: flex;
+    gap: 24px;
+}
+
+.btn-banner-right {
+    background: transparent;
+    color: var(--color-secondary);
+}
+
+.banner-img img{
+    width: 490px;
+    height: 640px;
+    border-radius: var(--border-radius-xs);
+}
+
+.banner-icon {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}

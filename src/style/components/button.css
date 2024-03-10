@@ -1,0 +1,19 @@
+.btn-primary {
+    padding: 8px 20px;
+    font-size: var(--font-size-2xs);
+    font-weight: var(--font-weight-default);
+    line-height: var(--line-height-3xs);
+    text-align: center;
+    border-radius: var(--border-radius-default);
+    border: 1px solid var(--color-secondary);
+    background: var(--color-secondary);
+    color: var(--color-white);
+    transition: all .50s ease;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    background: var(--color-white);
+    color: var(--color-secondary);
+}
