@@ -8,6 +8,8 @@
 
 /* components */
 @import url(./components/button.css);
+@import url(./components/text.css);
+@import url(./components/image.css);
 
 /* layout */
 @import url(../style/layout/header.css);
@@ -15,6 +17,7 @@
 
 /* section */
 @import url(../style/section/banner.css);
+@import url(../style/section/features.css);
 
 .container {
     width: 1440px;

@@ -1,0 +1,38 @@
+
+.image1 {
+    Width: 499px;
+    Height: 212px;
+}
+.image2 {
+    Width: 237.5px;
+    Height: 218px;
+}
+.image3 {
+    Width: 291px;
+    Height: 454px;
+}
+.image4 {
+    Width: 395px;
+    Height: 212px;
+}
+
+
+.features {
+    padding: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.features-img {
+    display: flex;
+    gap: 24px;
+}
+
+.img-wrap {
+    display: flex;
+    gap: 24px;
+}
+
+
+
