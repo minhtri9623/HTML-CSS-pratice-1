@@ -1,10 +1,29 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
+/* bases */
+@import url(../style/bases/global.css);
+@import url(../style/bases/reset.css);
+@import url(../style/bases/typography.css);
+
+/* abstracts */
+@import url(./abstracts/variable.css);
+
+/* components */
+@import url(./components/);
+
+/* layout */
+@import url(../style/layout/);
+@import url(../style/layout/);
+
+/* section */
+@import url(../style/section/);
+
+
+
+
+
+
+
+
+
 
 :root {
     --color-secondary: #F58634;
