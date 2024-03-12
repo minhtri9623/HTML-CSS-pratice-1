@@ -10,6 +10,7 @@
 @import url(./components/button.css);
 @import url(./components/text.css);
 @import url(./components/image.css);
+@import url(./components/card-list.css);
 
 /* layout */
 @import url(../style/layout/header.css);
@@ -18,8 +19,11 @@
 /* section */
 @import url(../style/section/banner.css);
 @import url(../style/section/features.css);
+@import url(../style/section/card.css);
 
 .container {
     width: 1440px;
-    background: var(--color-white-gray);
+    background: #9c8080;
+    font-family: "Quicksand", sans-serif;
+    background: #d8d4d4;
 }

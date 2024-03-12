@@ -1,0 +1,12 @@
+/* @font-face {
+    font-family: 'Quicksand';
+    src: url('../../access/font/Quicksand-Light.woff') format('woff2'),
+        url('../../access/font/Quicksand-Light.woff2') format('woff');
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('../../access/font/Quicksand-Bold.ttf') format('woff2');
+    font-display: swap;
+}

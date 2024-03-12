@@ -1,0 +1,63 @@
+
+
+.card-list {
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.card-info {
+    padding: 16px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-xs);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.card-name {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-2xs);
+    color: var(--color-light-blue);
+}
+
+.card-evaluate {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.evalue-number {
+    font-size: var(--font-size-3xs);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--font-size-3sm);
+    color: var(--color-black);
+}
+
+.likes {
+    font-size: var(--font-size-3xs);
+    font-weight: var(--font-weight-default);
+    line-height: var(--line-height-4xs);
+    color: var(--color-light-blue);
+}
+
+.card-btn {
+    padding: 8px 24px;
+    border-radius: var(--border-radius-3xs);
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    font-size: var(--font-size-2xs);
+    font-weight: var(--font-weight-default);
+    line-height: var(--line-height-3xs);
+    transition: all .5s ease;
+    cursor: pointer;
+    
+}
+
+.card-btn:hover {
+    background: transparent;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+}
+

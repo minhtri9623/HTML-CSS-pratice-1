@@ -16,6 +16,11 @@
     Height: 212px;
 }
 
+.features-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
 
 .features {
     padding: 104px;
