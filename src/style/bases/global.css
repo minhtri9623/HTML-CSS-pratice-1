@@ -31,3 +31,15 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+
+.img-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

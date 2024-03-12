@@ -24,9 +24,6 @@
 
 .features {
     padding: 104px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
 }
 
 .features-img {
