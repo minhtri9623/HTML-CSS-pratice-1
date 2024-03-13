@@ -1,5 +1,4 @@
 
-
 .footer {
     padding: 72px 238px;
     background: var(--color-light-gray);
@@ -11,9 +10,17 @@
 .box-container {
     display: flex;
     justify-content: space-between;
-
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.box-one {
+    max-width: 198px;
+}
 .box-title {
     font-size: var(--font-size-2sm);
     font-weight: var(--font-weight-bold);
@@ -21,19 +28,16 @@
     color: var(--color-primary);
 }
 
-.box-list {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
 .box-link {
-    color: var(--color-white-gray);
     font-size: var(--font-size-2xs);
     line-height: var(--line-height-3xs);
     font-weight: var(--font-weight-default);
+    color: var(--color-border);
 }
 
 .copy-name {
-    
+    font-size: var(--font-size-4xs);
+    font-weight: var(--font-weight-default);
+    line-height: var(--line-height-default);
+    color: var(--color-white-gray);
 }
