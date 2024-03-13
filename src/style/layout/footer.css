@@ -1,0 +1,39 @@
+
+
+.footer {
+    padding: 72px 238px;
+    background: var(--color-light-gray);
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box-title {
+    font-size: var(--font-size-2sm);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-2sm);
+    color: var(--color-primary);
+}
+
+.box-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box-link {
+    color: var(--color-white-gray);
+    font-size: var(--font-size-2xs);
+    line-height: var(--line-height-3xs);
+    font-weight: var(--font-weight-default);
+}
+
+.copy-name {
+    
+}

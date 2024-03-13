@@ -1,0 +1,68 @@
+
+.contact {
+    padding: 0px 168px 104px 168px;
+    display: flex;
+    gap: 96px;
+}
+
+.contact-content {
+    max-width: 510px;
+}
+
+.contact-title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    line-height: var( --line-height-md);
+    color: var(--color-light-blue);
+}
+
+.contact-subtitle {
+    font-size: var(--font-size-2xs);
+    font-weight: var(--font-weight-default);
+    line-height: var(--line-height-3xs);
+    color: var(--color-black);
+}
+
+.description {
+    display: flex;
+    /* align-items: center; */
+    gap: 27px;
+}
+
+.description-img {
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+}
+
+
+.description-title {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-2xs);
+    color: var(--color-light-blue);
+}
+
+.description-sub {
+    max-width: 395px;
+    font-size: var(--font-size-2xs);
+    font-weight: var(--font-weight-default);
+    line-height: var(--line-height-3xs);
+    color: var(--color-black);
+}
+
+.btn-contact {
+    margin-left: 188px;
+}
+
+.contact-frame {
+    position: relative;
+    margin: 29.5px 0;
+}
+
+.contact-position {
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+}
+
