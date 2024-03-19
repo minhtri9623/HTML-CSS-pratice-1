@@ -29,7 +29,7 @@
     color: var(--color-secondary);
 }
 
-.banner-img img{
+.banner-card img{
     width: 490px;
     height: 640px;
     border-radius: var(--border-radius-xs);
