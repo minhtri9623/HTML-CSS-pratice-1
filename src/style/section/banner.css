@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     gap: 58px;
-    padding: 56px 104px;
+    padding: 56px;
 }
 
 .banner-content {
@@ -35,8 +35,21 @@
     border-radius: var(--border-radius-xs);
 }
 
-.banner-icon {
+.group-dot {
     display: flex;
     gap: 16px;
     align-items: center;
+}
+
+.icon-banner {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--color-icon);
+}
+
+.icon-banner:first-child {
+    width: 24px;
+    height: 24px;
+    background: var(--color-text);
 }

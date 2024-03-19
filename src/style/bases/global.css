@@ -43,3 +43,19 @@ a {
   flex-direction: column;
   gap: 16px;
 }
+
+
+@media (min-width: 1440px) {
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+}
+
+
+.container {
+  /* font-family: "Quicksand", sans-serif;
+  background: url(../access/image/background-blue.png);
+  background-repeat: no-repeat; */
+  background: var(--color-border);
+}

@@ -24,10 +24,4 @@
 @import url(../style/section/gallery.css);
 @import url(../style/section/contact.css);
 
-.container {
-    width: 1440px;
-    background: #9c8080;
-    font-family: "Quicksand", sans-serif;
-    background: url(../access/image/background-blue.png);
-    background-repeat: no-repeat;
-}
+
