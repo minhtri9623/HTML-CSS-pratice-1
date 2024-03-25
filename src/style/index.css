@@ -6,3 +6,6 @@
 
 /* abstracts */
 @import url(../style/abstracts/variables.css);
+
+/* layout */
+@import url(./layout/index.css);
