@@ -1,4 +1,9 @@
 .header-wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+.header-content {
     display: flex;
     justify-content: space-between;
     padding: 41px 0;
@@ -45,7 +50,7 @@
     display: flex;
 }
 
-.btn-primary {
+.btn-block {
     padding-right: 24px;
     border-right: 1px solid var(--color-Alto);
     color: var(--color-Nero);
@@ -54,9 +59,9 @@
     line-height: var(--line-height-sm);
 }
 
-.btn-primary:last-child {
+.btn-block:last-child {
     border-right: none;
-    padding-right: none;
+    padding-right: 0;
     padding-left: 24px;
     color: var(--color-primary);
 }
