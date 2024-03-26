@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    gap: 24px;
+}
+
+.card-list {
+    border: 0.5px solid var(--color-Edward);
+    padding: 16px;
+    border-radius: var(--border-radius-md);
+    /* display: flex; */
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card-product {
+    width: 362px;
+    height: 248px;
+}
+
+.card-name {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-md);
+    color: var(--color-Charade);
+}
