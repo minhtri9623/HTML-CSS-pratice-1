@@ -8,3 +8,10 @@
 
 /* layout */
 @import url(./layouts/index.css);
+
+/* section */
+@import url(./sections/banner.css);
+
+/* components */
+@import url(./components/button.css);
+@import url(./components/general.css);
