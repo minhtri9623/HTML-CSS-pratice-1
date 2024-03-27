@@ -1,0 +1,44 @@
+
+.footer-wrapper {
+    margin-top: 104px;
+    padding: 72px 238px;
+    background-color: var(--color-Cloud-Burst);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-icon {
+    margin-right: 8px;
+}
+
+.contact-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xl);
+    color: var(--color-white);
+}
+
+.contact-link {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-default);
+    line-height: var(--line-height-sm);
+    color: var(--color-Silver);
+    transition: 0.2s all ease;
+}
+
+.contact-link:hover {
+    color: var(--color-Wild-Sand);
+}
