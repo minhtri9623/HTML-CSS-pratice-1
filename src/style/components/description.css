@@ -1,0 +1,24 @@
+
+.description {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.description-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.description-title {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-md);
+    color: var(--color-Charade);
+}
+
+.description-icon {
+    width: 55px;
+    height: 55px;
+}
