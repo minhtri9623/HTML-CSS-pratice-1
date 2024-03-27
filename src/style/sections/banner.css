@@ -1,0 +1,53 @@
+.banner {
+    background: var(--color-secondary);
+    width: 1043px;
+    height: 880px;
+    border-radius: 0 0 500px 0;
+}
+
+.banner-wrapper {
+    display: flex;
+    gap: 58px;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.banner-title {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-3xl);
+    color: var(--color-white);
+}
+
+.banner-btn {
+    display: flex;
+    gap: 24px;
+}
+
+.btn-primary:last-child {
+    background: transparent;
+    color: var(--color-primary);
+}
+
+.btn-primary:last-child:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.dot {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.general:first-child {
+    width: 24px;
+    height: 24px;
+    background: var(--color-Wild-Sand);
+}

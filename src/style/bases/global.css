@@ -1,0 +1,32 @@
+body,
+button,
+input,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Quicksand';
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-default);
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1232px;
+    margin: 0 auto;
+  }
+}
