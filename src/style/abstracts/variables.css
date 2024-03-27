@@ -1,0 +1,55 @@
+:root {
+    /* Color */
+    --color-orange: #F58634;
+    --color-dark-blue: #1E3446;
+    --color-primary: var(--color-orange);
+    --color-secondary: var(--color-dark-blue);
+    --color-Wild-Sand: #F6F6F6;
+    --color-Nero: #120A00;
+    --color-white: #FFFFFF;
+    --color-Cloud-Burst: #1E3446;
+    --color-Charade: #262B35;
+    --color-Pale-Sky: #606C84;
+    --color-Silver: #BDBDBD;
+    --color-Slate-Gray: #627E84;
+    --color-Edward: #B2B3B3;
+    --color-Alto: #D4D4D4;
+
+
+
+
+    /* Font size */
+    --font-size-2xs: 12px;
+    --font-size-xs: 14px;
+    --font-size-sm: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 20px;
+    --font-size-xl: 22px;
+    --font-size-2xl: 32px;
+    --font-size-3xl: 56px;  
+    
+
+    /* Font weight */
+    --font-weight-default: 400;
+    --font-weight-bold: 700;
+
+    /* Line height */
+    --line-height-default: normal;
+    --line-height-2xs: 15px;
+    --line-height-xs: 22px;
+    --line-height-sm: 24px;
+    --line-height-md: 26px;
+    --line-height-lg: 27px;
+    --line-height-xl: 28px;
+    --line-height-2xl: 36px;
+    --line-height-3xl: 72px;
+
+    /* Border radius*/
+    --border-radius-default: 8px;
+    --border-radius-sm: 10px;
+    --border-radius-md: 16px;
+    --border-radius-lg: 17px;
+    --border-radius-xl: 24px;
+
+
+}

@@ -1,0 +1,11 @@
+{
+  "name": "z",
+  "version": "1.0.0",
+  "description": "abc",
+  "repository": "abc",
+  "author": "abc",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
